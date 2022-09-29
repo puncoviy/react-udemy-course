@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vanilla JS</title>
+        <style>
+            .clicked-btn {
+                text-transform: uppercase;
+            }
+        </style>
+    </head>
+    <body>
+        <button onclick="changeBtn('btn')" id="btn">Click me</button>
+        <button onclick="changeBtn('btn2')" id="btn2">Click me</button>
+        <button onclick="changeBtn('btn3')" id="btn3">Click me</button>
+        <script>
+            const changeBtn = (id) => {
+                const btn = document.getElementById(id)
+                btn.textContent = 'Clicked'
+                btn.className = 'clicked-btn'
+            }
+        </script>
+    </body>
+</html>
