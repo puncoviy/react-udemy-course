@@ -13,7 +13,6 @@ const Btn = ({ initialBtnText, initialBtnClass }) => {
         </button>
     )
 }
-//
 
 const container = document.getElementById('app')
 const root = ReactDOM.createRoot(container)
