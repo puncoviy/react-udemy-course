@@ -1,0 +1,9 @@
+.info {
+    border: 2px solid lightgray;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.btn_special {
+    background-color: coral;
+}
