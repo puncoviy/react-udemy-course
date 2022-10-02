@@ -1,0 +1,30 @@
+.App {
+    /* text-align: center; */
+}
+
+.loading {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.post:nth-child(odd) {
+    background-color: #ccc;
+}
+
+.post-author {
+    font-size: 30px;
+    font-weight: bold;
+}
