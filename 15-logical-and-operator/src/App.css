@@ -15,3 +15,8 @@ button {
     margin: 20px;
     border: none;
 }
+
+.btn-reset {
+    text-transform: uppercase;
+    background-color: rgb(237, 234, 139);
+}
