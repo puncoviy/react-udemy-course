@@ -1,0 +1,23 @@
+@keyframes bg-translate {
+    from {
+        background-color: rgb(194, 241, 194);
+    }
+    to {
+        background-color: #fff;
+    }
+}
+
+.todo__item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    animation: bg-translate 2s;
+    background-color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.todo_icon {
+    flex-shrink: 0;
+}

@@ -1,0 +1,11 @@
+.btn__box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.btn__icon {
+    width: 30px;
+    height: 30px;
+}

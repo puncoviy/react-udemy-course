@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(28, 28, 38);
+}
+
+.App {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #fff;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.empty_list_title {
+    color: #fff;
+    text-align: center;
+}
+
+.completed__list_title {
+    color: #fff;
+    text-align: center;
+}

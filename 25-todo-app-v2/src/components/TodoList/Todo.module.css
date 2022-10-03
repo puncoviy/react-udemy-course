@@ -1,0 +1,65 @@
+@keyframes bg-translate {
+    from {
+        background-color: rgb(194, 241, 194);
+    }
+    to {
+        background-color: #fff;
+    }
+}
+
+.todo__item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    animation: bg-translate 2s;
+    background-color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 1s;
+    border: 1px solid transparent;
+}
+
+.test {
+    border: 3px solid red;
+}
+
+.todo__item.completed {
+    border: 1px solid #ccc;
+    background-color: #315339;
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.todo_text {
+    flex-grow: 1;
+}
+
+.todo_icon,
+.delete_icon,
+.complete_icon {
+    flex-shrink: 0;
+    transition: fill 0.5s;
+    width: 25px;
+    height: 25px;
+}
+
+.todo__item.completed .todo_icon,
+.todo__item.completed .complete_icon,
+.todo__item.completed .delete_icon {
+    fill: #ccc;
+}
+
+.delete_icon + .complete_icon {
+    margin-left: 10px;
+}
+
+.delete_icon:hover {
+    cursor: pointer;
+    fill: lightcoral;
+}
+
+.complete_icon:hover {
+    cursor: pointer;
+    fill: #315339;
+}

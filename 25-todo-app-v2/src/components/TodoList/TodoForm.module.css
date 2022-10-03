@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.input,
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input {
+    flex-grow: 1;
+}
+
+/* .btn {
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.btn:hover {
+    background-color: lightgreen;
+} */

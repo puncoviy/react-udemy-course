@@ -1,0 +1,7 @@
+.todo__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    margin-bottom: 40px;
+}
